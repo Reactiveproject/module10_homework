@@ -1,0 +1,39 @@
+.button {
+  width: 150px;
+  height: 25px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  display: inline;
+  margin: 10px;
+}
+
+.button:hover {
+  scale: 1.02;
+  color: rgb(209, 209, 209);
+}
+
+.button:active {
+  scale: 0.98;
+}
+
+.input {
+  height: 20px;
+  width: 350px;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.input_field {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.massage_field {
+  border: 1px solid blue;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
